@@ -1,0 +1,511 @@
+[
+  {
+    "model": "power.campus",
+    "pk": 1,
+    "fields": {
+      "name": "北校区",
+      "client": "192.168.84.1"
+    }
+  },
+  {
+    "model": "power.campus",
+    "pk": 2,
+    "fields": {
+      "name": "南校区",
+      "client": "192.168.84.228"
+    }
+  },
+  {
+    "model": "power.campus",
+    "pk": 3,
+    "fields": {
+      "name": "西丽校区",
+      "client": "172.21.101.11"
+    }
+  },
+  {
+    "model": "power.campus",
+    "pk": 4,
+    "fields": {
+      "name": "深大新斋区",
+      "client": "192.168.84.87"
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 1,
+    "fields": {
+      "name": "乔林阁1-10楼",
+      "campus": 1,
+      "szu_id": 6121
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 2,
+    "fields": {
+      "name": "乔木阁1-10楼",
+      "campus": 1,
+      "szu_id": 6122
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 3,
+    "fields": {
+      "name": "乔林阁11-12",
+      "campus": 1,
+      "szu_id": 6363
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 4,
+    "fields": {
+      "name": "乔木阁11-12",
+      "campus": 1,
+      "szu_id": 6364
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 5,
+    "fields": {
+      "name": "乔梧阁2-10层",
+      "campus": 1,
+      "szu_id": 7724
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 6,
+    "fields": {
+      "name": "乔梧阁11-20",
+      "campus": 1,
+      "szu_id": 7725
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 7,
+    "fields": {
+      "name": "乔森阁2-10层",
+      "campus": 1,
+      "szu_id": 6875
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 8,
+    "fields": {
+      "name": "乔森11-20层",
+      "campus": 1,
+      "szu_id": 6876
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 9,
+    "fields": {
+      "name": "乔相阁2-10层",
+      "campus": 1,
+      "szu_id": 6877
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 10,
+    "fields": {
+      "name": "乔相11-20层",
+      "campus": 1,
+      "szu_id": 6878
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 11,
+    "fields": {
+      "name": "留学生公寓",
+      "campus": 1,
+      "szu_id": 8147
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 12,
+    "fields": {
+      "name": "木棉斋",
+      "campus": 1,
+      "szu_id": 50
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 13,
+    "fields": {
+      "name": "拒霜斋",
+      "campus": 1,
+      "szu_id": 51
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 14,
+    "fields": {
+      "name": "山茶斋",
+      "campus": 1,
+      "szu_id": 54
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 15,
+    "fields": {
+      "name": "红榴斋",
+      "campus": 1,
+      "szu_id": 55
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 16,
+    "fields": {
+      "name": "米兰斋",
+      "campus": 1,
+      "szu_id": 56
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 17,
+    "fields": {
+      "name": "海桐斋",
+      "campus": 1,
+      "szu_id": 57
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 18,
+    "fields": {
+      "name": "桃李斋",
+      "campus": 1,
+      "szu_id": 58
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 19,
+    "fields": {
+      "name": "凌霄斋",
+      "campus": 1,
+      "szu_id": 59
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 20,
+    "fields": {
+      "name": "银桦斋",
+      "campus": 1,
+      "szu_id": 61
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 21,
+    "fields": {
+      "name": "木犀轩",
+      "campus": 1,
+      "szu_id": 63
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 22,
+    "fields": {
+      "name": "丹枫轩",
+      "campus": 1,
+      "szu_id": 64
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 23,
+    "fields": {
+      "name": "紫檀轩",
+      "campus": 1,
+      "szu_id": 65
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 24,
+    "fields": {
+      "name": "石楠轩",
+      "campus": 1,
+      "szu_id": 66
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 25,
+    "fields": {
+      "name": "苏铁轩",
+      "campus": 1,
+      "szu_id": 67
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 26,
+    "fields": {
+      "name": "芸香阁",
+      "campus": 1,
+      "szu_id": 68
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 27,
+    "fields": {
+      "name": "丁香阁",
+      "campus": 1,
+      "szu_id": 69
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 28,
+    "fields": {
+      "name": "文杏阁",
+      "campus": 1,
+      "szu_id": 70
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 29,
+    "fields": {
+      "name": "海棠阁",
+      "campus": 1,
+      "szu_id": 71
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 30,
+    "fields": {
+      "name": "疏影阁",
+      "campus": 1,
+      "szu_id": 72
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 31,
+    "fields": {
+      "name": "杜衡阁",
+      "campus": 1,
+      "szu_id": 73
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 32,
+    "fields": {
+      "name": "辛夷阁",
+      "campus": 1,
+      "szu_id": 74
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 33,
+    "fields": {
+      "name": "韵竹阁",
+      "campus": 1,
+      "szu_id": 75
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 34,
+    "fields": {
+      "name": "云杉轩",
+      "campus": 1,
+      "szu_id": 76
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 35,
+    "fields": {
+      "name": "紫藤轩",
+      "campus": 1,
+      "szu_id": 77
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 36,
+    "fields": {
+      "name": "冬筑11-14楼",
+      "campus": 2,
+      "szu_id": 8241
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 37,
+    "fields": {
+      "name": "春笛3-8楼",
+      "campus": 2,
+      "szu_id": 6875
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 38,
+    "fields": {
+      "name": "夏筝3-17楼",
+      "campus": 2,
+      "szu_id": 6876
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 39,
+    "fields": {
+      "name": "秋瑟3-8楼",
+      "campus": 2,
+      "szu_id": 6877
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 40,
+    "fields": {
+      "name": "冬筑3-6楼",
+      "campus": 2,
+      "szu_id": 6878
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 41,
+    "fields": {
+      "name": "春笛9-17楼",
+      "campus": 2,
+      "szu_id": 7119
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 42,
+    "fields": {
+      "name": "秋瑟9-17楼",
+      "campus": 2,
+      "szu_id": 7828
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 43,
+    "fields": {
+      "name": "冬筑7-10楼",
+      "campus": 2,
+      "szu_id": 8240
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 44,
+    "fields": {
+      "name": "冬筑15-17楼",
+      "campus": 2,
+      "szu_id": 8242
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 45,
+    "fields": {
+      "name": "A栋风信子",
+      "campus": 3,
+      "szu_id": 10057
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 46,
+    "fields": {
+      "name": "B栋山楂树",
+      "campus": 3,
+      "szu_id": 10934
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 47,
+    "fields": {
+      "name": "C栋胡杨林",
+      "campus": 3,
+      "szu_id": 10935
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 48,
+    "fields": {
+      "name": "风槐斋",
+      "campus": 4,
+      "szu_id": 7126
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 49,
+    "fields": {
+      "name": "雨鹃斋",
+      "campus": 4,
+      "szu_id": 7603
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 50,
+    "fields": {
+      "name": "蓬莱客舍",
+      "campus": 4,
+      "szu_id": 17887
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 51,
+    "fields": {
+      "name": "聚翰斋",
+      "campus": 4,
+      "szu_id": 18118
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 52,
+    "fields": {
+      "name": "紫薇斋",
+      "campus": 4,
+      "szu_id": 18119
+    }
+  },
+  {
+    "model": "power.building",
+    "pk": 53,
+    "fields": {
+      "name": "红豆斋",
+      "campus": 4,
+      "szu_id": 18120
+    }
+  }
+]
